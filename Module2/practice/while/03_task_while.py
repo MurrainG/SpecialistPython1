@@ -10,3 +10,13 @@
 # 1234
 
 # TODO: your code here
+
+number = int(input())   
+count = 1
+sum = 1
+while count < number:
+    if count == 1:  #сделано на кастылях)
+        print(1)
+    count += 1
+    sum = (str(sum) + str(count))
+    print(sum)

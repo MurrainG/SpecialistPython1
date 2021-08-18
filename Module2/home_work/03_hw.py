@@ -29,3 +29,12 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+
+
+
+n = float(input())
+k = 0
+while k <= 20:
+    k += 1
+    s = n * k
+    print(k,s)

@@ -4,3 +4,12 @@
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
 # TODO: your code here
+
+
+fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
+i = 0
+sum = 0
+for el in fruits:
+    i += 1
+    sum = str(i) + " " + str(el)
+    print(sum)
